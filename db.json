@@ -14,6 +14,16 @@
       "id": 3,
       "name": "milk",
       "isBought": false
+    },
+    {
+      "name": "cereal",
+      "isBought": false,
+      "id": 819819
+    },
+    {
+      "name": "ice cream",
+      "isBought": false,
+      "id": 370630
     }
   ]
 }

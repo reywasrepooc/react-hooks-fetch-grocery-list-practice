@@ -1,10 +1,10 @@
 import React from "react"
 import Grocery from "./Grocery"
 
-const GroceryList = ({groceries, onGroceryDelete, onUpdateGrocery}) => {
+const GroceryList = ({groceries, onDeleteGrocery, onUpdateGrocery}) => {
   const groceriesToDisplay = groceries.map(grocery => {
     const handleGroceryDelete = () => {
-      onGroceryDelete(grocery)
+      onDeleteGrocery(grocery)
     }
 
     const handleUpdateGrocery = () => {
